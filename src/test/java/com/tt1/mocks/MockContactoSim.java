@@ -37,7 +37,8 @@ public class MockContactoSim implements InterfazContactoSim {
     }
 
     @Override
-    public boolean isValidEntityId() {
+    public boolean isValidEntityId(int id) {
         return true;
     }
+
 }

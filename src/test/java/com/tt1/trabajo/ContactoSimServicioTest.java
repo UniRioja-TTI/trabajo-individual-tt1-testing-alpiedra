@@ -43,7 +43,12 @@ class ContactoSimServicioTest {
     }
 
     @Test
-    void testIsValidEntityIdDevuelveTrue() {
-        assertTrue(servicio.isValidEntityId());
+    void testIsValidEntityIdConIdValido() {
+        assertTrue(servicio.isValidEntityId(1));
+    }
+
+    @Test
+    void testIsValidEntityIdConIdInvalido() {
+        assertFalse(servicio.isValidEntityId(99));
     }
 }

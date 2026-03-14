@@ -10,5 +10,5 @@ public interface InterfazContactoSim {
 	public int solicitarSimulation(DatosSolicitud sol);
 	public DatosSimulation descargarDatos(int ticket);
 	public List<Entidad> getEntities();
-	public boolean isValidEntityId();
+	public boolean isValidEntityId(int id);
 }
