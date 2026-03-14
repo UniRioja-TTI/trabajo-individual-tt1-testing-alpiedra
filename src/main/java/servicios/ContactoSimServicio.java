@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+
 @Service
 public class ContactoSimServicio implements InterfazContactoSim {
     private final List<Entidad> entidades;
